@@ -1,0 +1,26 @@
+.table {
+  width: 500px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 14px;
+}
+
+.headContent {
+  padding: 8px 0;
+}
+
+.head {
+  color: white;
+  background-color: rgb(52, 51, 51);
+  border: 1px solid rgb(27, 27, 27);
+}
+
+.bodyContent {
+  border: 1px solid rgb(47, 47, 47);
+  padding: 8px 0;
+  text-transform: capitalize;
+}
+
+.bodyItem:nth-child(odd) {
+  background-color: rgb(189, 187, 187);
+}
